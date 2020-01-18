@@ -111,4 +111,5 @@ dist
 # specific to this project
 *.pdf
 *_out.txt
+input
 
