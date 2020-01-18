@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/douira/extract-pdf-toc#readme",
   "dependencies": {
-    "pdfjs": "^2.3.3"
+    "fs-extra": "^8.1.0",
+    "pdfjs-dist": "^2.2.228"
   },
   "scripts": {
+    "run": "node index.js",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "format-all": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run format-all"
