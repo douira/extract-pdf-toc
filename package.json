@@ -1,0 +1,31 @@
+{
+  "name": "extract-pdf-toc",
+  "version": "1.0.0",
+  "description": "Extracts the Table of Contents of a pdf and outputs it in a easier to process format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douira/extract-pdf-toc.git"
+  },
+  "keywords": [
+    "nodejs",
+    "pdfjs",
+    "toc",
+    "extract",
+    "pdf",
+    "formatting",
+    "convert"
+  ],
+  "author": "douira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/douira/extract-pdf-toc/issues"
+  },
+  "homepage": "https://github.com/douira/extract-pdf-toc#readme",
+  "dependencies": {
+    "pdfjs": "^2.3.3"
+  }
+}
