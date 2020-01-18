@@ -147,7 +147,7 @@ const fixStructure = items => {
         outline = outline[0].items || []
       }
 
-      //return a fake item for this file
+      //return a fake enclosing item for this file
       return {
         //parse a nice title from the file name
         title: file.match(/(.+)\.pdf/)[1].trim(),
